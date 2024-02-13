@@ -1,23 +1,24 @@
 function NavbarComponent() {
   return (
-    <nav>
-      <div className="flex flex-row justify-between max-w-6xl mx-auto py-10 ">
-        <div className="logo flex items-center">
-          <span className="text-xl text-[#29A867] font-bold">Sijago</span>
-        </div>
-        <div className="nav-links flex items-center">
-          <ul className="flex flex-row text-center gap-x-5 ">
-            <li className="text-[#0C0D36] font-normal text-base hover:text-[#FF7158] hover:font-bold">Home</li>
-            <li className="text-[#0C0D36] font-normal text-base hover:text-[#FF7158] hover:font-bold">Kelas</li>
-            <li className="text-[#0C0D36] font-normal text-base hover:text-[#FF7158] hover:font-bold">About</li>
+    <nav className="navbar max-w-6xl bg-white mx-auto py-10">
+      <div className="grid grid-cols-3">
+        <img src="./images/main-logo.svg" alt="" />
+        <div className="basic-link flex flex-row items-center justify-center">
+          <ul className="flex flex-row text-center gap-5 flex-wrap ">
+              <li className="text-dark font-normal text-base hover:text-orange hover:font-bold transition-all duration-100 cursor-pointer">Home</li>
+              <li className="text-dark font-normal text-base hover:text-orange hover:font-bold transition-all duration-100 cursor-pointer">Kelas</li>
+              <li className="text-dark font-normal text-base hover:text-orange hover:font-bold transition-all duration-100 cursor-pointer">About</li>
           </ul>
         </div>
-        <div className="flex flex-row gap-x-1 items-center">
-          <button className="py-3.5 px-4 text-lg font-medium bg-[#f1f4f5] text-[#0C0D36] rounded-full">SignUp</button>
-          <button className="py-3.5 px-4 text-lg font-medium bg-[#29A867]  text-[#ffffff] rounded-full">SignIn</button>
+        <div className="flex flex-row gap-x-2 justify-end items-center">
+          <button className="bg-secondary py-3 px-4 text-dark rounded-full">Sign Up</button>
+          <button className="bg-main  py-3 px-4 text-white rounded-full">Sign In</button>
         </div>
       </div>
     </nav>
+  
+    
+   
   )
 }
 
