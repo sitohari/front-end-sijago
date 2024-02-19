@@ -11,7 +11,7 @@ function NavbarComponent() {
           </ul>
         </div>
         <div className="flex flex-row gap-x-2 justify-end items-center">
-          <button className="border-2 border-gray hover:bg-secondary py-3 px-4 text-dark rounded-full">Sign Up</button>
+          <button className="border-2 border-gray  py-3 px-4 text-dark rounded-full">Sign Up</button>
           <button className="border-2 border-main hover:bg-main py-3 px-4 text-dark hover:text-white rounded-full">Sign In</button>
         </div>
       </div>

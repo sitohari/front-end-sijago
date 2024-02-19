@@ -10,7 +10,7 @@ export default {
       'white' : '#ffffff',
       'orange' : '#FF7158',
       'dark' : '#080C2E',
-      'gray' : '#6b7280',
+      'gray' : '#525252',
       'zinc' : '#f4f4f4',
       'secondary' : '#f1f4f5'
     },
